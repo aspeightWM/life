@@ -25,6 +25,13 @@ int main(int argc, char *argv[])
 
 long cumulative_sum(int N)
 {
-	//TODO	
+	long accumulator;
+	
+	if (N == 0)
+		accumulator = 0;
+	else
+		accumulator = N + cumulative_sum(N-1);
+
+	return accumulator;	
 }
 
