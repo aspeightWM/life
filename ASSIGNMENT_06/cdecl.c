@@ -57,7 +57,7 @@ void gettoken(void)
 	}
 
 	if (*p=='*') {
-		strcpy(this.string, "pointer to");
+		strcpy(this.string, "pointer to ");
 		this.type = '*';
 		return;
 	}
@@ -78,7 +78,7 @@ read_to_first_identifier() {
 
 deal_with_arrays() {
 	while (this.type=='[') {
-		printf("array");
+		printf("array ");
 		gettoken();
 		if (isdigit(this.string[0])) {
 			printf("0..%d ",atoi(this.string)-1);
@@ -99,7 +99,7 @@ deal_with_function_args() {
 
 deal_with_pointers() {
 	while (stack[top].type== '*') {
-		printf("%s", pop.string);
+		printf("%s ", pop.string);
 	}
 }
 
