@@ -1,0 +1,35 @@
+Script started on 2022-10-25 23:36:00-04:00 [TERM="xterm" TTY="/dev/pts/1" COLUMNS="85" LINES="48"]
+aspeight@th121-24:~/public_html/life/ASSIGNMENT_06$ /[K./a.out
+int argc;
+argc is int 
+aspeight@th121-24:~/public_html/life/ASSIGNMENT_06$ ./a.out
+char *argv[];
+argv is array of pointer to  char 
+aspeight@th121-24:~/public_html/life/ASSIGNMENT_06$ ./a.out
+char *argv();
+argv is function returningpointer to  char 
+aspeight@th121-24:~/public_html/life/ASSIGNMENT_06$ ./a.out
+char (*j)[20];
+j is pointer to  array 0..19 of char 
+aspeight@th121-24:~/public_html/life/ASSIGNMENT_06$ ./a.out
+const int * grape;
+grape is pointer to  int read-only 
+aspeight@th121-24:~/public_html/life/ASSIGNMENT_06$ ./a.out
+int * const grape;
+grape is read-only pointer to  int 
+aspeight@th121-24:~/public_html/life/ASSIGNMENT_06$ ./a.out
+const int * const grape;
+grape is read-only pointer to  int read-only 
+aspeight@th121-24:~/public_html/life/ASSIGNMENT_06$ ./a.out
+char* cont st *(*next)();
+next is pointer to  function returningpointer to  read-only pointer to  char 
+aspeight@th121-24:~/public_html/life/ASSIGNMENT_06$ ./a.out
+char *(*c[10])(int **p);
+c is array 0..9 of pointer to  function returningpointer to  char 
+aspeight@th121-24:~/public_html/life/ASSIGNMENT_06$ ./a.out
+typedef struct Perceptron *Pre  erceptron;
+typedef is 
+aspeight@th121-24:~/public_html/life/ASSIGNMENT_06$ exit
+exit
+
+Script done on 2022-10-25 23:39:27-04:00 [COMMAND_EXIT_CODE="0"]
