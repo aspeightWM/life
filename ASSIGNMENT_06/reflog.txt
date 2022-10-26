@@ -1,0 +1,39 @@
+90485b7 HEAD@{0}: merge feature/deal_with_declarator: Fast-forward
+3bbdd0c HEAD@{1}: checkout: moving from feature/deal_with_declarator to main
+90485b7 HEAD@{2}: commit: Add deal_with_declarator and add main
+3bbdd0c HEAD@{3}: checkout: moving from main to feature/deal_with_declarator
+3bbdd0c HEAD@{4}: merge feature/deal_with_pointers: Fast-forward
+494d649 HEAD@{5}: checkout: moving from feature/deal_with_pointers to main
+3bbdd0c HEAD@{6}: commit: Add deal_with_pointers
+494d649 HEAD@{7}: checkout: moving from main to feature/deal_with_pointers
+494d649 HEAD@{8}: merge feature/deal_with_function_args: Fast-forward
+b773987 HEAD@{9}: checkout: moving from feature/deal_with_function_args to main
+494d649 HEAD@{10}: commit: Add deal_with_function_args
+b773987 HEAD@{11}: checkout: moving from main to feature/deal_with_function_args
+b773987 HEAD@{12}: merge feature/deal_with_arrays: Fast-forward
+44c4f1c HEAD@{13}: checkout: moving from feature/deal_with_arrays to main
+b773987 HEAD@{14}: commit: Add deal_with_arrays
+44c4f1c HEAD@{15}: checkout: moving from main to feature/deal_with_arrays
+44c4f1c HEAD@{16}: merge feature/read_to_first_identifier: Fast-forward
+7765c29 HEAD@{17}: checkout: moving from feature/read_to_first_identifier to main
+44c4f1c HEAD@{18}: commit: Add read_to_first_identifier
+7765c29 HEAD@{19}: checkout: moving from main to feature/read_to_first_identifier
+7765c29 HEAD@{20}: merge feature/gettoken: Fast-forward
+2e3f315 HEAD@{21}: checkout: moving from feature/gettoken to main
+7765c29 HEAD@{22}: commit: Add gettoken
+2e3f315 HEAD@{23}: checkout: moving from main to feature/gettoken
+2e3f315 HEAD@{24}: merge feature/classify_string: Fast-forward
+9e39679 HEAD@{25}: checkout: moving from feature/classify_string to main
+2e3f315 HEAD@{26}: commit: Add classify_string
+9e39679 HEAD@{27}: checkout: moving from main to feature/classify_string
+9e39679 HEAD@{28}: commit: Add cdecl.c
+56c3052 HEAD@{29}: checkout: moving from feature/classify_string to main
+f321087 HEAD@{30}: commit: Add cdecl.c. Add classify_string.
+56c3052 HEAD@{31}: checkout: moving from main to feature/classify_string
+56c3052 HEAD@{32}: merge feature/cumulative_sum: Fast-forward
+ee35715 HEAD@{33}: checkout: moving from feature/cumulative_sum to main
+56c3052 HEAD@{34}: commit: Edit sumr.c
+ee35715 HEAD@{35}: checkout: moving from main to feature/cumulative_sum
+ee35715 HEAD@{36}: commit: Add sumr.c
+bc5df00 HEAD@{37}: commit: Add sum.c
+0886dc3 HEAD@{38}: clone: from git@github.com:aspeightWM/life.git
