@@ -103,3 +103,29 @@ deal_with_pointers() {
 	}
 }
 
+deal_with_declarator() {
+	switch (this.type) {
+		case '[' : deal_with_arrays(); break;
+		case '(' : deal_with_function_args();
+	}
+
+	deal_with_pointers();
+
+	while (top>=0) {
+		if (stack[top].type == '(') {
+			pop;
+			gettoken();
+			deal_with_declarator();
+		} else {
+			printf("%s ", pop.string);
+		}
+	}
+}
+
+main()
+{
+	read_to_first_identifier();
+	deal_with_declarator();
+	printf("\n");
+	return 0;
+}
