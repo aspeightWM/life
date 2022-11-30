@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include "perceptron.h"
-
+	
 int main(int argc, char *argv[])
 {
 	char *fname = argv[1];
@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 	double *xcoords = (double*) malloc(number_of_examples * sizeof(double));
 	double *ycoords = (double*) malloc(number_of_examples * sizeof(double));
 	double *targets = (double*) malloc(number_of_examples * sizeof(double));
-	load_data(fname, xcoords, ycoords, targets);
+	load_data(fname, xcoords, ycoords, targets);ccc
 
 	double *weights = (double*) malloc(DIMENSIONS * sizeof(double));
 	initialize(weights);
@@ -27,6 +27,6 @@ int main(int argc, char *argv[])
 	free(ycoords);
 	free(targets);
 	free(weights);
-
+	
 	return 0;
 }
